@@ -27,6 +27,7 @@ body, html {
 .bgimg-1 {
   background-image: url('images/adi-goldstein-mDinBvq1Sfg-unsplash.jpg');
   min-height: 100%;
+  opacity: 0.5;
 }
 
 /* Second image (Portfolio) */
@@ -55,16 +56,15 @@ body, html {
 </head>
 <body>
 
-<!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
+      <i class="fa fa-sitemap"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> &nbsp;COURSE INFO&nbsp;</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-cube"></i> CONTACT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-cube"></i>&nbsp;CONTACT AND MORE </a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
     </a>
   </div>
@@ -145,7 +145,15 @@ Aside from teaching, I am also interested in maintaining a mentoring relationshi
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
-	<p class="w3-large w3-center w3-padding-16">How this classes is made up:</p>
+	<h3 class="w3-center">COURSE WELCOME AND CONTENT</h3>
+	<center>
+	<video style="width:100%"  controls>
+  	<source src="images/intro vid.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+	  </video>
+  </center>
+	<p class="w3-large w3-center w3-padding-16">This course will provide a discussion of object-oriented programming to include inheritance, polymorphism, recursion, searching and sorting. The course will also foster the understanding and application of data structures, and analysis and design of algorithms. This course will also have a lab component to give students a handson experience working with these concepts. By the end of this course students will understand what objectoriented programming is and how to implement this structure into programming languages. This will be done using data structures through a hands-on approach with code. </p>
+	<h3 class="w3-center">How this classes is made up:</h3>
   <p class="w3-wide"><i class="fa fa-laptop"></i>Projects</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
@@ -154,25 +162,18 @@ Aside from teaching, I am also interested in maintaining a mentoring relationshi
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:30%">30%</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-paper-plane"></i>Class Discussion/Presentations</p>
+  <p class="w3-wide"><i class="fa fa-archive"></i>Class Discussion/Presentations</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:10%">10%</div>
   </div>
 	<br><br>
-  <h3 class="w3-center">COURSE WELCOME AND CONTENT&nbsp;</h3>
-	<center>
-	<video width="320" height="240" controls>
-  	<source src="images/intro vid.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-	  </video>
-  </center>
-	<br>
+
 	
-  <p class="w3-center"><em>More course content<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center"><em>Mock lecture slides and more course content below<br> Click on the images to make them bigger</em></p><br>
 	
 	
 	
-	 <iframe src="images/mockslides.pdf" style="width:98%" height="500px"></iframe>
+	 <iframe src="images/mockslides.pdf" style="width:100%" height="500px"></iframe>
 
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
@@ -204,11 +205,11 @@ understand that your learning environments can and should grow.">
     </div>
 
     <div class="w3-col m3">
-      <img src="images/" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      <img src="images/ica.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="In-Class Discussion Activities">
     </div>
 
     <div class="w3-col m3">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      <img src="images/eval.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Course Eval">
     </div>
   </div>
 </div>
@@ -225,32 +226,21 @@ understand that your learning environments can and should grow.">
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT AND MORE</span>
   </div>
 </div>
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>
-	  <strong>My 10 beliefs in creating an inclusive environment</strong>
-			<br>
-			1.	Know the first name of your students and at least one of their fun facts <br>
-			2.	Assign each student to their own group<br>
-			3.	Get student input on lesson planning <br>
-			4.	Create a online community for students such as discord (makes accessing the professor more accessible and less formal and intimidating)<br>
-			5.	Offer a hybrid options in case its needed for students<br>
-			6.	Provide individualized feedback on projects and assessments. <br>
-			7.	Goal setting and Career workshops for students <br>
-			8.	Dedicate class time for HW help or resume reviews<br>
-			9.	Anonymous suggestion submission available at anytime during the semester<br>
-			10.	Mental health days, no class and students can rest and reset
-
-	  </em></p>
+  <h3 class="w3-center">Lets Chat!</h3>
+  <p class="w3-center"></p>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" class="w3-image w3-round" style="width:100%">
+      <img src="images/10b.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+		     <center>My 10 beliefs in creating an inclusive environment (click image) </center>
+		
+		
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
