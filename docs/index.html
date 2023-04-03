@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!DOCTYPE html><html><head>
 <title>AHE 603</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
@@ -58,19 +56,19 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    <a href="javascript:void(0);" title="Toggle Navigation Menu" class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" onclick="toggleFunction()">
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> &nbsp;COURSE INFO&nbsp;</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
     </a>
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+  <div class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium" id="navDemo">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
@@ -80,28 +78,49 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">AHE 603 <span class="w3-hide-small">WEBSITE</span></span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> -INTRO TO PROGRAMMING-</span>
   </div>
 </div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>I love photography</em></p>
-  <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p class="w3-center"><em>“There is always something more to learn. Even for a master.” -Master Oogway, Kung Fu Panda</em></p>
+  <p> </p><center>How's it going?! </center> <br>
+My name is Brisaac Johnson, and I am excited to have you in my class! And can't for us to start your programming journey!
+But before we get into the fun stuff, heres a bit about me; I received a B.S. in Computer Science at the University of North Georgia, Dahlonega, GA, USA. During my time at the University of North Georgia, I participated in the Ronald E. McNair Program as a McNair Scholar and obtained the following honors: Oustanding Performance as a McNair Scholar, Influencer Award(x2), Mike and Lynn Cottrell Scholarship Recipient(x2), Marion C. Wicht Award.
+
+I am currently pursuing a Ph.D. degree in Computer Science at The University of Alabama, Tuscaloosa, AL, USA. As a Ph.D. student, I was awarded the Outstanding ACM Graduate Teaching Award, and I am the recipient of the GAANN Fellowship. My research interest includes the following: autonomous vehicles, physiological data, Human-centered computing, situation awareness, robotics, and taxonomy.    <p></p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
-      <img src="images/scenic-view-of-mountain-under-cloudy-sky-1363873.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+     
+      <img src="images/IMG_0111.jpg" alt="Photo of Me" width="500" height="333" class="w3-round w3-image w3-opacity w3-hover-opacity-off">
     </div>
 
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  
+    <div class="w3-animate-bottom">
+      <p></p><center> My Teaching Statement </center>
+		 Being a minority in a STEM field, I understand the feeling of not belonging and feeling as if your voice is never heard. Therefore, it is my obligation to create an inclusive classroom environment that encourages new ideas and introduces tools to students that can help them outside the classroom. Each person who comes into my classroom has a unique story; because of this, one must consider their individual needs and design activities, and create assignments and lectures that meet these needs. I believe in a hands-on approach and leading with real examples through projects that help develop communication, organization, and collaboration skills among their peers. Essentially, the goal is to help students learn by using critical thinking by questioning and gaining their own understanding. The focus is to teach students about researching relevant literature and existing technologies and defining their own solutions to effectively present their ideas and skills in front of their peers and employers. When teaching, I make it a priority to get to know my students both in and outside of the classroom, as I want them to feel comfortable, seen, and needed. This, in turn, gets students excited about class and creates a collaborative environment. <br>
+		Effort-based education creates an environment of inclusion, where students can earn grades that reflect their coursework. Similarly, peer learning encourages students to work as a team to use resources that everyone can contribute. In my courses, creating
+a sense of community is necessary where each individual has a voice and something to contribute. Therefore, my focus is on problem-solving through projects and collaborative feedback.
+Aside from teaching, I am also interested in maintaining a mentoring relationship with students, as they must have someone to guide them as they learn. As a teacher, it is crucial to help students understand their career possibilities and how they can connect their acquired knowledge to their passions. Likewise, I would like to extend invitations to people interested in working with me on research projects to allow them to work on what they are passionate about. My main goal is to be a guide to help each student develop the necessary skills to meet their goals and be successful in the subsequent phases of their lives.
+		  <br> 
+		  <br>
+		 	<center><strong>My 10 Beliefs in creating an inclusive environment</strong></center>
+		  <br>
+		  <center>
+			1.	Know the first name of your students and at least one of their fun facts <br>
+			2.	Assign each student to their own group<br>
+			3.	Get student input on lesson planning <br>
+			4.	Create a online community for students such as discord (makes accessing the professor more accessible and less formal and intimidating)<br>
+			5.	Offer a hybrid options in case its needed for students<br>
+			6.	Provide individualized feedback on projects and assessments. <br>
+			7.	Goal setting and Career workshops for students <br>
+			8.	Dedicate class time for HW help or resume reviews<br>
+			9.	Anonymous suggestion submission available at anytime during the semester<br>
+			10.	Mental health days, no class and students can rest and reset
+			</center>
+		<p></p>
     </div>
   </div>
 
@@ -143,135 +162,34 @@ body, html {
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-white w3-wide">COURSE INFO</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
+	<center>
+	<video width="720" height="480" controls="">
+  	<source src="images/intro vid.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		</center>
   <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
-
+	
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      <img src="images/FB73KSgXoAQR4lP.jpeg" alt="The mist over the mountains" class="w3-hover-opacity" style="width:100%" onclick="onClick(this)">
     </div>
 
     <div class="w3-col m3">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+      <img src="images/FB73KSgXoAQR4lP.jpeg" alt="Coffee beans" class="w3-hover-opacity" style="width:100%" onclick="onClick(this)">
     </div>
 
     <div class="w3-col m3">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+      <img src="images/FB73KSgXoAQR4lP.jpeg" alt="Bear closeup" class="w3-hover-opacity" style="width:100%" onclick="onClick(this)">
     </div>
 
     <div class="w3-col m3">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-    </div>
-    <!--button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button-->
-  </div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <img src="images/FB73KSgXoAQR4lP.jpeg" class="w3-image w3-round" style="width:100%">
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
-      </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form>
-    </div>
-  </div>
-</div>
-
- 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-
-</body>
-</html>
+      <img src="images/FB73KSgXoAQR4lP.jpeg" alt="Quiet ocean" class="w3-hover-opacity" style="width:100%" onclick="onClick(this)">
